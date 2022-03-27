@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+}
+  
+  a:hover {
+    text-decoration: none;
+}
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+
+body{
+  display: flex;
+  background-color: black;
+}
+
+.container{
+  position: absolute;
+  top: calc(50% - 300px);
+  left: calc(50% - 150px);
+  display: flex;
+}
+
+.colomn{
+  display: flex;
+  flex-direction: column;
+}
+
+.block{
+    width: 30px;
+    height: 30px;
+    border: rgb(59, 59, 59) solid 1px;
+    background-color: rgb(0, 0, 0);
+}
+
+.next__block{
+  width: 30px;
+  height: 30px;
+  border: rgb(59, 59, 59) solid 1px;
+  background-color: rgb(0, 0, 0);
+}
+
+.block__red{
+  background-color: rgb(235, 0, 0);
+}
+
+.block_dark-blue{
+  background-color: blue;
+}
+
+.block_blue{
+  background-color: rgb(0, 238, 255);
+}
+
+.block_orange{
+  background-color: rgb(255, 94, 0);
+}
+
+.block_yellow{
+  background-color: rgb(255, 238, 0);
+}
+
+.block_purple{
+  background-color: rgb(119, 0, 255);
+}
+
+.block_green{
+  background-color: rgb(0, 255, 85);
+}
+
+.block_magenta{
+  background-color: rgb(255, 0, 149);
+}
+
+.result-next{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: calc(50% - 300px);
+  left: calc(50% + 150px);
+  display: flex;
+}
+
+.result{
+  margin: 100px auto 0 auto;
+}
+
+.result__text{
+  color: white;
+  font-size: 40px;
+  flex-direction: column;
+}
+
+.next{
+  position: absolute;
+  display: flex;
+  margin: 0 0 0 85px;
+}
+
+.next__colomn{
+  display: flex;
+  flex-direction: column;
+}
